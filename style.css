@@ -45,6 +45,22 @@ body {
     background: #d81b60;
 }
 
+/* Botões gerais */
+.btn {
+    background: #e91e63;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d81b60;
+}
+
 /* Seções gerais */
 .container {
     width: 90%;
