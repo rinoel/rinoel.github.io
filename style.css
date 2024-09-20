@@ -1,160 +1,135 @@
 /* Reset básico */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
+/* Cabeçalho */
+.header {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header .subheading {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.header .btn-header {
+    background: #e91e63;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.header .btn-header:hover {
+    background: #d81b60;
+}
+
+/* Seções gerais */
 .container {
-  width: 80%;
-  margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
 }
 
-header {
-  background: #ff5733;
-  color: #fff;
-  padding: 60px 0;
-  text-align: center;
+/* Seção sobre o curso */
+.about {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
 }
 
-header h1 {
-  font-size: 2.5rem;
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-header p {
-  font-size: 1.2rem;
-  margin: 20px 0;
+.about p, .about ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
 }
 
-header .btn-header {
-  background-color: #ffc107;
-  color: #333;
-  padding: 15px 30px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  margin-top: 20px;
+.about ul {
+    list-style: none;
 }
 
+.about ul li {
+    margin-bottom: 15px;
+}
+
+/* Seção de Imagem (substituindo vídeo) */
 .vsl {
-  padding: 40px 0;
-  background-color: #fff;
-  text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
 }
 
 .vsl h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.video-container {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
+.vsl p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
 }
 
-.video-container iframe {
-  width: 100%;
-  height: 400px;
+.vsl .image-container {
+    margin-bottom: 30px;
 }
 
+.vsl .vsl-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Seção de Benefícios */
 .benefits {
-  background: #f7f7f7;
-  padding: 60px 0;
-  text-align: center;
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
 }
 
 .benefits h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
-.benefit-item {
-  margin-bottom: 30px;
+.benefits .benefit-item {
+    margin-bottom: 40px;
 }
 
-.benefit-item h3 {
-  font-size: 1.5rem;
-  color: #ff5733;
+.benefits .benefit-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-.benefit-item p {
-  font-size: 1rem;
-}
-
-.testimonials {
-  background: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-
-.testimonial-item {
-  margin-bottom: 30px;
-}
-
-.testimonial-item p {
-  font-style: italic;
-  font-size: 1.1rem;
-}
-
-.testimonial-item h3 {
-  font-size: 1rem;
-  color: #ff5733;
-}
-
-.cta {
-  background: #ff5733;
-  color: #fff;
-  padding: 60px 0;
-  text-align: center;
-}
-
-.cta h2 {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-}
-
-.cta p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-.cta .btn-cta {
-  background-color: #ffc107;
-  color: #333;
-  padding: 15px 30px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-footer {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #ffc107;
-  text-decoration: none;
-}
+.benefits .benefit-item p {
+   
