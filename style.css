@@ -30,21 +30,6 @@ body {
     margin-bottom: 30px;
 }
 
-.header .btn-header {
-    background: #e91e63;
-    color: white;
-    padding: 15px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 30px;
-    transition: background 0.3s;
-}
-
-.header .btn-header:hover {
-    background: #d81b60;
-}
-
 /* Seções gerais */
 .container {
     width: 90%;
@@ -61,6 +46,7 @@ body {
 }
 
 .about h2 {
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -73,39 +59,34 @@ body {
     margin: 10px 0;
 }
 
-/* Seção de VSL */
-.vsl {
-    padding: 40px 0;
-    background-color: #f0f0f0;
-    text-align: center;
-}
-
-.vsl-image {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Seção de Benefícios */
 .benefits {
-    padding: 40px 0;
-}
-
-.benefit-item {
-    margin-bottom: 20px;
-}
-
-/* Seção de Depoimentos */
-.testimonials {
-    background-color: #f0f0f0;
-    padding: 40px 0;
+    background-color: white;
+    padding: 50px 0;
     text-align: center;
 }
 
-.testimonial-item {
-    margin: 20px 0;
+.benefits h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
-/* Seção de Ancoragem de Preços */
+.benefits .benefit-item {
+    margin-bottom: 40px;
+}
+
+.benefits .benefit-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.benefits .benefit-item p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Ancoragem de preço */
 .price-section {
     text-align: center;
     padding: 50px 0;
@@ -127,6 +108,7 @@ body {
 .price-box h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: white; /* Cor da letra alterada para melhor legibilidade */
 }
 
 .price-box h2 {
@@ -145,20 +127,22 @@ body {
     font-weight: bold;
 }
 
-.white {
-    color: white;
-}
-
 /* Seção de Chamada para Ação */
 .cta {
-    padding: 50px 0;
-    text-align: center;
     background-color: #1a1a1a;
     color: white;
+    text-align: center;
+    padding: 60px 0;
 }
 
 .cta h2 {
+    font-size: 28px;
     margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 /* Rodapé */
@@ -167,4 +151,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+footer a {
+    color: #e91e63;
+    text-decoration: none;
 }
