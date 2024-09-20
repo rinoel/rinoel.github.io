@@ -163,6 +163,9 @@ body {
     font-weight: bold;
 }
 
+.value-price {
+    color: #e91e63;
+}
 .white {
     color: white;
 }
