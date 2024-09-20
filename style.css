@@ -8,8 +8,8 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Cabeçalho */
@@ -22,7 +22,7 @@ body {
 
 .header h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    color: #ff4040;
 }
 
 .header .subheading {
@@ -31,7 +31,7 @@ body {
 }
 
 .header .btn-header {
-    background: #e91e63;
+    background: #ff4040;
     color: white;
     padding: 15px 30px;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ body {
 }
 
 .header .btn-header:hover {
-    background: #d81b60;
+    background: #cc3333;
 }
 
 /* Seções gerais */
@@ -55,21 +55,21 @@ body {
 
 /* Seção sobre o curso */
 .about {
-    background-color: white;
     padding: 40px 0;
     text-align: center;
+    border: 2px solid #ff4040;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .about h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
 }
 
 .about p, .about ul {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #555;
 }
 
 .about ul {
@@ -80,9 +80,8 @@ body {
     margin-bottom: 15px;
 }
 
-/* Seção de Imagem (substituindo vídeo) */
+/* Seção de Imagem com animação */
 .vsl {
-    background-color: #f9f9f9;
     padding: 50px 0;
     text-align: center;
 }
@@ -90,13 +89,6 @@ body {
 .vsl h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
-}
-
-.vsl p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #555;
 }
 
 .vsl .image-container {
@@ -109,11 +101,26 @@ body {
     border-radius: 10px;
 }
 
+.animated-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ff4040;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Animação */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
 /* Seção de Benefícios */
 .benefits {
-    background-color: white;
     padding: 50px 0;
     text-align: center;
+    border: 2px solid #ff4040;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .benefits h2 {
@@ -128,17 +135,16 @@ body {
 .benefits .benefit-item h3 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #333;
+    color: #ff4040;
 }
 
 .benefits .benefit-item p {
     font-size: 18px;
-    color: #555;
 }
 
-/* Botões gerais */
+/* Botões */
 .btn {
-    background: #e91e63;
+    background: #ff4040;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -149,12 +155,11 @@ body {
 }
 
 .btn:hover {
-    background: #d81b60;
+    background: #cc3333;
 }
 
 /* Seção de Depoimentos */
 .testimonials {
-    background-color: #f9f9f9;
     padding: 50px 0;
     text-align: center;
 }
@@ -171,12 +176,11 @@ body {
 .testimonials .testimonial-item p {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #555;
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 20px;
-    color: #333;
+    color: #ff4040;
 }
 
 /* Seção CTA */
@@ -197,14 +201,6 @@ body {
     margin-bottom: 30px;
 }
 
-.cta .btn-cta {
-    background: #e91e63;
-}
-
-.cta .btn-cta:hover {
-    background: #d81b60;
-}
-
 /* Rodapé */
 footer {
     background-color: #333;
@@ -214,6 +210,6 @@ footer {
 }
 
 footer a {
-    color: #e91e63;
+    color: #ff4040;
     text-decoration: none;
 }
