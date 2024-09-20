@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #000;
     color: #fff;
@@ -38,11 +38,12 @@ body {
     text-decoration: none;
     font-weight: bold;
     border-radius: 30px;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .header .btn-header:hover {
     background: #cc3333;
+    transform: scale(1.05);
 }
 
 /* Seções gerais */
@@ -99,6 +100,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .animated-text {
@@ -151,11 +153,12 @@ body {
     text-transform: uppercase;
     border-radius: 30px;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .btn:hover {
     background: #cc3333;
+    transform: scale(1.05);
 }
 
 /* Seção de Depoimentos */
@@ -170,25 +173,15 @@ body {
 }
 
 .testimonials .testimonial-item {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-style: italic;
 }
 
-.testimonials .testimonial-item p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 20px;
-    color: #ff4040;
-}
-
-/* Seção CTA */
+/* Seção de CTA */
 .cta {
-    background-color: #1a1a1a;
-    color: white;
+    padding: 50px 0;
     text-align: center;
-    padding: 60px 0;
+    background: #1a1a1a;
 }
 
 .cta h2 {
