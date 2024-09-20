@@ -53,172 +53,7 @@ body {
     padding: 20px 0;
 }
 
-/* Seção sobre o curso */
-.about {
-    background-color: white;
-    padding: 40px 0;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.about p, .about ul {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #555;
-}
-
-.about ul {
-    list-style: none;
-}
-
-.about ul li {
-    margin-bottom: 15px;
-}
-
-/* Seção de Imagem (substituindo vídeo) */
-.vsl {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.vsl h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.vsl p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #555;
-}
-
-.vsl .image-container {
-    margin-bottom: 30px;
-}
-
-.vsl .vsl-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Seção de Benefícios */
-.benefits {
-    background-color: white;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.benefits h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-}
-
-.benefits .benefit-item {
-    margin-bottom: 40px;
-}
-
-.benefits .benefit-item h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.benefits .benefit-item p {
-    font-size: 18px;
-    color: #555;
-}
-
-/* Botões gerais */
-.btn {
-    background: #e91e63;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.btn:hover {
-    background: #d81b60;
-}
-
-/* Seção de Depoimentos */
-.testimonials {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.testimonials h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-}
-
-.testimonials .testimonial-item {
-    margin-bottom: 40px;
-}
-
-.testimonials .testimonial-item p {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 20px;
-    color: #333;
-}
-
-/* Seção CTA */
-.cta {
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
-    padding: 60px 0;
-}
-
-.cta h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.cta p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.cta .btn-cta {
-    background: #e91e63;
-}
-
-.cta .btn-cta:hover {
-    background: #d81b60;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer a {
-    color: #e91e63;
-    text-decoration: none;
-}
-
-/* Ancoragem de preço */
+/* Seção de Ancoragem de Preços */
 .price-section {
     text-align: center;
     padding: 50px 0;
@@ -258,31 +93,13 @@ footer a {
     font-weight: bold;
 }
 
-.payment-options img {
-    max-width: 50px;
-    margin: 10px;
+.white {
+    color: white;
 }
 
-.course-content {
-    padding: 20px;
-    background-color: #121212;
-    margin-top: 20px;
-}
-
-.course-content h3 {
+footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.course-content ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.course-content ul li {
-    background-color: #1a1a1a;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    padding: 20px 0;
 }
