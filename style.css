@@ -219,30 +219,70 @@ footer a {
 }
 
 /* Ancoragem de preço */
-.price-anchor {
-    background-color: #f9f9f9;
-    padding: 40px 0;
+.price-section {
     text-align: center;
-    border: 2px solid #e91e63;
-    border-radius: 10px;
-    margin: 40px auto;
-    max-width: 80%; /* Define a largura máxima da âncora */
+    padding: 50px 0;
+    background-color: #0e0e0e; /* Fundo escuro */
 }
 
 .price-box {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #1a1a1a;
+    padding: 30px;
     border: 2px solid #e91e63;
     border-radius: 10px;
     display: inline-block;
-    margin: 20px 0;
-    max-width: 80%; /* Define a largura máxima da caixa de preço */
-    text-align: left;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
 }
 
-.price {
-    font-size: 48px; /* Tamanho grande para o preço */
-    font-weight: bold;
+.price-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.price-box h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.price-box del {
     color: #e91e63;
-    margin: 20px 0;
+    font-size: 18px;
+}
+
+.highlighted-price {
+    color: #00bfff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.payment-options img {
+    max-width: 50px;
+    margin: 10px;
+}
+
+.course-content {
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 20px;
+}
+
+.course-content h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.course-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.course-content ul li {
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
