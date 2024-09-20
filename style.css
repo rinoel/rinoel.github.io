@@ -109,6 +109,7 @@ body {
 /* Seção de Ancoragem de Preços */
 .price-section {
     text-align: center;
+    color: #ffffff;
     padding: 50px 0;
     background-color: #0e0e0e; /* Fundo escuro */
 }
