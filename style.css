@@ -16,7 +16,7 @@ body {
 .header {
     background: #1a1a1a;
     color: white;
-    text-align: center;
+    text-align: justify;
     padding: 80px 0;
 }
 
@@ -73,7 +73,7 @@ body {
 .about {
     background-color: white;
     padding: 40px 0;
-    text-align: center;
+    text-align: justify;
 }
 
 .about h2 {
@@ -93,7 +93,7 @@ body {
 .vsl {
     padding: 40px 0;
     background-color: #f0f0f0;
-    text-align: center;
+    text-align: justify;
 }
 
 .vsl-image {
@@ -104,7 +104,7 @@ body {
 /* Seção de Benefícios */
 .benefits {
     padding: 40px 0;
-    text-align: center;
+    text-align: justify;
 }
 
 .benefit-item {
@@ -115,7 +115,7 @@ body {
 .testimonials {
     background-color: #f0f0f0;
     padding: 40px 0;
-    text-align: center;
+    text-align: justify;
 }
 
 .testimonial-item {
@@ -124,7 +124,7 @@ body {
 
 /* Seção de Ancoragem de Preços */
 .price-section {
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
     padding: 50px 0;
     background-color: #0e0e0e; /* Fundo escuro */
@@ -173,7 +173,7 @@ body {
 /* Seção de Chamada para Ação */
 .cta {
     padding: 50px 0;
-    text-align: center;
+    text-align: justify;
     background-color: #1a1a1a;
     color: white;
 }
@@ -186,6 +186,6 @@ body {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
+    text-align: justify;
     padding: 20px 0;
 }
