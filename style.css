@@ -217,3 +217,28 @@ footer a {
     color: #e91e63;
     text-decoration: none;
 }
+
+.price-anchor {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.price-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 48px; /* Tamanho grande para o preço */
+    font-weight: bold;
+    color: #e91e63;
+}
+
