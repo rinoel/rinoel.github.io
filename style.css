@@ -53,6 +53,58 @@ body {
     padding: 20px 0;
 }
 
+/* Seção sobre o curso */
+.about {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about li {
+    margin: 10px 0;
+}
+
+/* Seção de VSL */
+.vsl {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.vsl-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seção de Benefícios */
+.benefits {
+    padding: 40px 0;
+}
+
+.benefit-item {
+    margin-bottom: 20px;
+}
+
+/* Seção de Depoimentos */
+.testimonials {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin: 20px 0;
+}
+
 /* Seção de Ancoragem de Preços */
 .price-section {
     text-align: center;
@@ -97,6 +149,19 @@ body {
     color: white;
 }
 
+/* Seção de Chamada para Ação */
+.cta {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
 footer {
     background-color: #333;
     color: white;
